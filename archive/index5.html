@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blue Castle Auto | Auto Repair South Valley Albuquerque NM | Alignment, Brakes, Oil Changes</title>
+<meta name="description" content="Blue Castle Auto in Albuquerque, NM. Family-owned since 1999. Wheel alignment, brakes, AC repair, oil changes, diagnostics, and full-service auto repair. Call (505) 452-0465. No appointment needed.">
+<meta name="keywords" content="auto repair Albuquerque NM, wheel alignment Albuquerque, brake repair South Valley Albuquerque, oil change Albuquerque, steering suspension repair Albuquerque, auto electrical repair Albuquerque, radiator repair Albuquerque NM, engine diagnostics Albuquerque, tune up Albuquerque, auto repair Isleta Blvd, Blue Castle Auto, family owned auto shop Albuquerque">
+<meta property="og:title" content="Blue Castle Auto | Albuquerque Auto Repair Since 1999">
+<meta property="og:description" content="Family-owned, community-rooted auto repair in Albuquerque South Valley. Honest work, transparent pricing. No appointment needed. Call (505) 452-0465.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="./img/hero-bg.jpg">
+<link rel="canonical" href="https://www.bluecastleauto.com/">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Blue Castle Auto",
+  "description": "Family-owned full-service auto repair in Albuquerque South Valley since 1999. Wheel alignment, brakes, AC, oil changes, diagnostics, and more. No appointment needed.",
+  "address": {"@type":"PostalAddress","streetAddress":"2321 Isleta Blvd SW","addressLocality":"Albuquerque","addressRegion":"NM","postalCode":"87105"},
+  "telephone": "+15054520465",
+  "openingHours": ["Tu-Sa 08:00-17:00"],
+  "priceRange": "$$",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog", "name": "Auto Repair Services",
+    "itemListElement": [
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Routine Automotive Maintenance and Oil Changes"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Wheel Alignment and Brake Repair Albuquerque"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Steering and Suspension Repair Albuquerque NM"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Auto Electrical Repair Albuquerque"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Radiator and Cooling System Repair Albuquerque"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Engine Diagnostics and Tune-Up Albuquerque NM"}}
+    ]
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --blue:       #1565C8;
+    --blue-dark:  #0B1730;
+    --blue-mid:   #1050A8;
+    --blue-light: #1E7AE8;
+    --red:        #C8181E;
+    --red-dark:   #A01217;
+    --white:      #F5F4F0;
+    --charcoal:   #111318;
+    --mid:        #3A3A3A;
+    --steel:      #626870;
+    --light:      #E2E1DC;
+  }
+
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; background: var(--white); color: var(--charcoal); font-size: 16px; line-height: 1.6; }
+
+  /* ── BATTLEMENT DIVIDER ── */
+  .battlements { display:block; width:100%; line-height:0; }
+  .battlements svg { display:block; width:100%; }
+
+  /* ── NAV ── */
+  nav { background: var(--blue-dark); position: sticky; top: 0; z-index: 100; border-bottom: 3px solid var(--red); }
+  .nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; height: 72px; }
+  .nav-logo { text-decoration: none; display: flex; align-items: center; }
+  .nav-logo-img { height: 52px; width: auto; display: block; }
+  .nav-links { display: flex; gap: 1.75rem; list-style: none; }
+  .nav-links a { font-weight: 600; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.08em; color: rgba(255,255,255,0.6); text-decoration: none; transition: color 0.15s; }
+  .nav-links a:hover { color: var(--white); }
+  .nav-cta { background: var(--red); color: var(--white) !important; padding: 0.38rem 1.1rem; border-radius: 2px; font-weight: 700 !important; }
+  .nav-cta:hover { background: var(--red-dark) !important; }
+
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+  .hamburger span { display: block; width: 24px; height: 2px; background: var(--white); }
+
+  /* ── HERO ── */
+  .hero { position: relative; padding: 5.5rem 1.5rem 5rem; overflow: hidden; background: var(--blue-dark); }
+  .hero-bg { position: absolute; inset: 0; background-image: url('./img/hero-bg.jpg'); background-size: cover; background-position: center 38%; opacity: 0.22; z-index: 0; }
+  .hero-inner { max-width: 1100px; margin: 0 auto; position: relative; z-index: 2; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+  .est-badge { font-weight: 600; font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--red); margin-bottom: 0.9rem; display: block; }
+  .hero h1 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(3rem, 6.5vw, 5rem); line-height: 0.95; color: var(--white); letter-spacing: 0.04em; margin-bottom: 0.9rem; }
+  .hero h1 em { font-style: normal; color: var(--red); display: block; text-shadow: -1px -1px 0 rgba(255,255,255,0.35), 1px -1px 0 rgba(255,255,255,0.35), -1px 1px 0 rgba(255,255,255,0.35), 1px 1px 0 rgba(255,255,255,0.35); }
+  .hero-sub { color: #9AA4B8; font-size: 1rem; margin-bottom: 1.75rem; max-width: 400px; line-height: 1.65; }
+
+  /* BIG PHONE CTA in hero */
+  .hero-phone-cta { margin-bottom: 1.5rem; }
+  .hero-phone-cta a {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    line-height: 1;
+    transition: color 0.15s;
+  }
+  .hero-phone-cta a:hover { color: var(--red); }
+  .hero-phone-cta .phone-label { font-family: 'Inter', sans-serif; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.2rem; }
+
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+
+  .btn-primary { background: var(--red); color: var(--white); font-weight: 700; font-size: 0.88rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.75rem 1.75rem; border: none; border-radius: 2px; cursor: pointer; text-decoration: none; display: inline-block; transition: background 0.15s; }
+  .btn-primary:hover { background: var(--red-dark); }
+  .btn-outline { background: transparent; color: rgba(255,255,255,0.75); font-weight: 600; font-size: 0.82rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.73rem 1.5rem; border: 1px solid rgba(255,255,255,0.22); border-radius: 2px; cursor: pointer; text-decoration: none; display: inline-block; transition: border-color 0.15s, color 0.15s; }
+  .btn-outline:hover { border-color: rgba(255,255,255,0.6); color: var(--white); }
+
+  .hero-info { display: flex; flex-direction: column; gap: 1rem; }
+  .info-card { background: rgba(0,0,0,0.5); border-left: 3px solid var(--blue); padding: 1rem 1.25rem; backdrop-filter: blur(3px); }
+  .info-card strong { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--red); display: block; margin-bottom: 0.3rem; }
+  .info-card p, .info-card a { color: var(--white); font-size: 1rem; text-decoration: none; line-height: 1.45; }
+  .info-card a:hover { color: var(--red); }
+  .info-card .big-phone { font-family: 'Bebas Neue', sans-serif; font-size: 1.8rem; letter-spacing: 0.05em; }
+
+  /* ── TRUST BAR ── */
+  .trust-bar { background: var(--blue); padding: 0.85rem 1.5rem; }
+  .trust-bar-inner { max-width: 1100px; margin: 0 auto; display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; align-items: center; }
+  .trust-item { font-weight: 600; font-size: 0.75rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--white); border: 1px solid rgba(255,255,255,0.3); padding: 0.32rem 0.8rem; border-radius: 2px; }
+
+  /* ── SECTIONS ── */
+  section { padding: 5rem 1.5rem; }
+  .section-inner { max-width: 1100px; margin: 0 auto; }
+  .section-eyebrow { font-weight: 600; font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--red); margin-bottom: 0.5rem; }
+  h2 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: 0.04em; line-height: 1.0; margin-bottom: 1rem; color: var(--charcoal); }
+  .section-lead { font-size: 1rem; color: var(--steel); max-width: 680px; margin-bottom: 3rem; line-height: 1.7; }
+
+  /* ── SERVICES ── */
+  #services { background: var(--white); }
+  .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+  .service-card { background: var(--white); padding: 1.75rem; border: 1px solid var(--light); cursor: pointer; transition: border-color 0.18s, box-shadow 0.18s, transform 0.18s; text-decoration: none; color: inherit; display: block; }
+  .service-card:hover { border-color: var(--blue); box-shadow: 0 4px 18px rgba(21,101,200,0.1); transform: translateY(-2px); }
+  .service-card:hover .service-card-cta { color: var(--blue); }
+  .service-accent { width: 24px; height: 4px; background: var(--red); margin-bottom: 1.15rem; display: block; }
+  .service-card h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.3rem; letter-spacing: 0.04em; color: var(--charcoal); margin-bottom: 0.5rem; line-height: 1.1; }
+  .service-card p { font-size: 0.91rem; color: var(--steel); line-height: 1.65; margin-bottom: 0.85rem; }
+  .service-card-cta { font-size: 0.74rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--steel); transition: color 0.18s; }
+
+  /* ── ABOUT ── */
+  #about { padding: 0; overflow: hidden; }
+
+  .about-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 600px;
+  }
+  .about-left {
+    background: var(--blue-dark);
+    padding: 4.5rem 4rem 4.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .about-left-inner { max-width: 540px; width: 100%; padding-left: 1.5rem; }
+  .about-right {
+    position: relative;
+    overflow: hidden;
+  }
+  .about-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 15%;
+    display: block;
+  }
+  #about h2 { color: var(--white); }
+  #about .section-eyebrow { color: var(--red); }
+  #about p.about-story { font-size: 1rem; color: #8a96a8; line-height: 1.7; margin-bottom: 2rem; }
+  @media (max-width: 768px) {
+    .about-split { grid-template-columns: 1fr; }
+    .about-right { min-height: 280px; }
+    .about-left { padding: 3rem 1.5rem; }
+    .about-left-inner { max-width: 100%; margin-left: 0; }
+  }
+
+  .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; margin-top: 2.5rem; }
+  .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; background: transparent; }
+  .stat-box { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.07); padding: 1.4rem 1.25rem; }
+  .stat-box .num { font-family: 'Bebas Neue', sans-serif; font-size: 2.8rem; color: var(--red); line-height: 1; display: block; letter-spacing: 0.03em; }
+  .stat-box .label { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #3a4255; margin-top: 0.3rem; }
+  .about-pillars { display: flex; flex-direction: column; gap: 1.5rem; }
+  .pillar { border-left: 3px solid var(--blue); padding-left: 1.25rem; }
+  .pillar h4 { font-family: 'Bebas Neue', sans-serif; font-size: 1.15rem; letter-spacing: 0.04em; color: var(--white); margin-bottom: 0.3rem; line-height: 1.2; }
+  .pillar p { font-size: 0.9rem; color: #5a6880; line-height: 1.65; }
+
+  /* ── DROP-IN CTA BAND ── */
+  .dropin-band { background: var(--red); padding: 3rem 1.5rem; }
+  .dropin-inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1.5rem; }
+  .dropin-text h3 { font-family: 'Bebas Neue', sans-serif; font-size: clamp(1.8rem, 3.5vw, 2.6rem); letter-spacing: 0.04em; color: var(--white); line-height: 1; }
+  .dropin-text p { font-size: 0.88rem; color: rgba(255,255,255,0.7); margin-top: 0.4rem; }
+  .dropin-actions { display: flex; gap: 0.75rem; align-items: stretch; flex-wrap: wrap; justify-content: center; }
+  .dropin-phone {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.15rem;
+    letter-spacing: 0.06em;
+    color: var(--red);
+    background: var(--white);
+    text-decoration: none;
+    padding: 0.75rem 1.75rem;
+    border-radius: 2px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+    transition: opacity 0.15s;
+  }
+  .dropin-phone:hover { opacity: 0.9; }
+  .btn-white { background: transparent; color: var(--white); font-weight: 700; font-size: 0.88rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.75rem 1.75rem; border: 2px solid rgba(255,255,255,0.5); border-radius: 2px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; line-height: 1; transition: border-color 0.15s, background 0.15s; }
+  .btn-white:hover { border-color: var(--white); background: rgba(255,255,255,0.1); }
+
+  /* ── SCHEDULE / CONTACT ── */
+  #schedule { background: var(--light); }
+  .schedule-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
+  .schedule-widget-box { background: var(--white); border-top: 5px solid var(--blue); padding: 2rem; }
+  .schedule-widget-box h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 0.04em; color: var(--charcoal); margin-bottom: 0.4rem; }
+  .schedule-widget-box > p { font-size: 0.9rem; color: var(--steel); margin-bottom: 1.5rem; }
+
+  .fallback-form { display: flex; flex-direction: column; gap: 0.9rem; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
+  .form-group { display: flex; flex-direction: column; gap: 0.3rem; }
+  .form-group label { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--mid); }
+  .form-group input, .form-group select, .form-group textarea { padding: 0.6rem 0.8rem; border: 1px solid #ccc; border-radius: 2px; font-family: 'Inter', sans-serif; font-size: 0.95rem; color: var(--charcoal); background: var(--white); transition: border-color 0.15s; }
+  .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: var(--blue); }
+  .form-group textarea { resize: vertical; min-height: 90px; }
+  .form-submit { background: var(--blue); color: var(--white); font-weight: 700; font-size: 0.88rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.8rem 1.5rem; border: none; border-radius: 2px; cursor: pointer; transition: background 0.15s; margin-top: 0.25rem; }
+  .form-submit:hover { background: var(--blue-mid); }
+
+  .schedule-alt { display: flex; flex-direction: column; gap: 1.25rem; padding-top: 1rem; }
+  .schedule-alt h3 { font-family: 'Bebas Neue', sans-serif; font-size: 1.6rem; letter-spacing: 0.04em; color: var(--charcoal); margin-bottom: 0.1rem; }
+  .schedule-alt > p { color: var(--steel); font-size: 0.95rem; margin-bottom: 0.25rem; }
+  .contact-block { background: var(--white); padding: 1.1rem 1.4rem; border-left: 4px solid var(--blue); }
+  .contact-block.red-border { border-left-color: var(--red); }
+  .contact-block .lbl { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--steel); margin-bottom: 0.2rem; }
+  .contact-block .val { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; letter-spacing: 0.04em; color: var(--charcoal); text-decoration: none; display: block; line-height: 1.2; }
+  .contact-block .val:hover { color: var(--blue); }
+  .contact-block .sub { font-size: 0.82rem; color: var(--steel); margin-top: 0.2rem; }
+
+  /* Hours table */
+  .hours-grid { display: grid; grid-template-columns: auto 1fr; gap: 0.25rem 1.5rem; margin-top: 0.25rem; }
+  .hours-day { font-size: 0.82rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--mid); }
+  .hours-time { font-size: 0.82rem; color: var(--steel); }
+  .hours-time.open { color: #1a7a1a; font-weight: 600; }
+  .hours-time.closed { color: var(--steel); }
+
+  /* ── REVIEWS ── */
+  #reviews { background: var(--white); }
+  .reviews-carousel { margin-top: 2.5rem; }
+  .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; transition: opacity 0.35s ease; }
+  .reviews-grid.fading { opacity: 0; }
+  .review-card { border: 1px solid var(--light); padding: 1.5rem; }
+  .review-stars { color: var(--red); font-size: 1rem; margin-bottom: 0.75rem; }
+  .review-text { font-size: 0.9rem; color: var(--mid); line-height: 1.65; margin-bottom: 1rem; font-style: italic; }
+  .review-author { font-family: 'Bebas Neue', sans-serif; font-size: 1rem; letter-spacing: 0.04em; color: var(--charcoal); }
+  .review-source { font-size: 0.75rem; color: var(--steel); margin-top: 0.1rem; }
+  .reviews-controls { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 1.75rem; }
+  .reviews-btn { background: none; border: 1px solid var(--light); color: var(--steel); width: 36px; height: 36px; border-radius: 2px; cursor: pointer; font-size: 1rem; display: flex; align-items: center; justify-content: center; transition: border-color 0.15s, color 0.15s; }
+  .reviews-btn:hover { border-color: var(--blue); color: var(--blue); }
+  .reviews-dots { display: flex; gap: 7px; align-items: center; }
+  .reviews-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--light); border: 1px solid #ccc; cursor: pointer; padding: 0; transition: background 0.2s; }
+  .reviews-dot.active { background: var(--red); border-color: var(--red); }
+
+  /* ── LOCATION ── */
+  #location { background: var(--blue-dark); padding: 5rem 1.5rem; }
+  #location h2 { color: var(--white); }
+  #location .section-eyebrow { color: var(--red); }
+  .location-row { border-left: 3px solid var(--blue); padding-left: 1.25rem; }
+  .location-row .lbl { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: var(--red); margin-bottom: 0.2rem; }
+  .location-row .val { color: var(--white); font-size: 1rem; line-height: 1.5; }
+  .location-row a { color: var(--white); text-decoration: none; }
+  .location-row a:hover { color: var(--red); }
+  .note-box { background: rgba(255,255,255,0.04); border-left: 3px solid var(--red); padding: 1rem 1.25rem; }
+  .note-box p { font-size: 0.88rem; color: #5a6880; line-height: 1.6; }
+  .note-box strong { color: rgba(200,24,30,0.8); font-weight: 600; }
+
+
+  /* location uses inline grid styles */
+  @media (max-width: 768px) { #location .location-info-grid { grid-template-columns: 1fr !important; } }
+
+  /* ── FOOTER ── */
+  footer { background: #060C18; padding: 4rem 1.5rem 0; border-top: 4px solid var(--red); }
+  .footer-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 4rem; padding-bottom: 3rem; border-bottom: 1px solid rgba(255,255,255,0.07); }
+  .footer-brand-logo { height: 56px; width: auto; display: block; margin-bottom: 1.25rem; }
+  .footer-brand p { font-size: 0.88rem; color: #5A6880; line-height: 1.7; max-width: 300px; }
+  .footer-brand-contact { margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.4rem; }
+  .footer-brand-contact a { font-family: "Bebas Neue", sans-serif; font-size: 1.5rem; letter-spacing: 0.05em; color: var(--white); text-decoration: none; transition: color 0.15s; }
+  .footer-brand-contact a:hover { color: var(--red); }
+  .footer-brand-contact span { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #3A4A60; }
+  .footer-col h4 { font-family: "Bebas Neue", sans-serif; font-size: 1rem; letter-spacing: 0.1em; color: rgba(255,255,255,0.35); margin-bottom: 1.1rem; }
+  .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+  .footer-col ul li a { color: #5A6880; text-decoration: none; font-size: 0.88rem; transition: color 0.15s; }
+  .footer-col ul li a:hover { color: var(--white); }
+  .footer-col p { color: #5A6880; font-size: 0.88rem; line-height: 1.7; }
+  .footer-col .footer-hours { display: grid; grid-template-columns: auto 1fr; gap: 0.2rem 1rem; margin-top: 0.25rem; }
+  .footer-col .footer-hours span { font-size: 0.85rem; color: #5A6880; }
+  .footer-col .footer-hours .fh-day { font-weight: 600; color: #4A5870; }
+  .footer-bottom { max-width: 1100px; margin: 0 auto; padding: 1.25rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.75rem; }
+  .footer-bottom p { font-size: 0.78rem; color: #2A3848; }
+  .footer-bottom a { color: #2A3848; text-decoration: none; }
+  .footer-bottom a:hover { color: #5A6880; }
+
+  /* ── MOBILE ── */
+  @media (max-width: 768px) {
+    nav .nav-links { display: none; }
+    nav .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 75px; left: 0; right: 0; background: var(--blue-dark); border-bottom: 3px solid var(--red); padding: 1rem 1.5rem; gap: 1rem; }
+    .hamburger { display: flex; }
+    .hero-inner { grid-template-columns: 1fr; }
+    .hero-info { display: none; }
+    .hero { padding: 3.5rem 1.5rem 3rem; }
+    .about-grid, .schedule-grid, .location-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .form-row { grid-template-columns: 1fr; }
+    .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
+    .footer-bottom { flex-direction: column; align-items: flex-start; }
+    .trust-bar-inner { justify-content: flex-start; }
+    .dropin-inner { flex-direction: column; }
+    .reviews-grid { grid-template-columns: 1fr; }
+    section { padding: 3.5rem 1.5rem; }
+    .about-team-photo { max-height: 320px; object-position: center 15%; }
+  }
+
+  /* ── ANIMATIONS ── */
+  /* Respect reduced-motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
+  }
+
+  /* Fade-up base state */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Staggered children */
+  .fade-up.delay-1 { transition-delay: 0.1s; }
+  .fade-up.delay-2 { transition-delay: 0.2s; }
+  .fade-up.delay-3 { transition-delay: 0.3s; }
+  .fade-up.delay-4 { transition-delay: 0.4s; }
+
+  /* Hero entrance — runs on load, no observer needed */
+  @keyframes heroIn {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .hero-copy { animation: heroIn 0.7s ease both; }
+  .hero-info { animation: heroIn 0.7s ease 0.15s both; }
+
+  /* Service cards hover lift already in place; add subtle shadow */
+  .service-card:hover {
+    box-shadow: 0 6px 24px rgba(21,101,200,0.13);
+  }
+
+  /* Stat box count-in glow */
+  @keyframes statPop {
+    from { opacity: 0; transform: scale(0.9); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+  .stat-box.visible .num { animation: statPop 0.4s ease both; }
+  .stat-box:nth-child(2).visible .num { animation-delay: 0.08s; }
+  .stat-box:nth-child(3).visible .num { animation-delay: 0.16s; }
+  .stat-box:nth-child(4).visible .num { animation-delay: 0.24s; }
+
+</style>
+</head>
+<body>
+
+<nav role="navigation" aria-label="Main navigation">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo"><img src="./img/logo.png" alt="Blue Castle Auto" class="nav-logo-img"></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#schedule" class="nav-cta">Contact Us</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="hero" role="banner">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <span class="est-badge">Est. 1999 &nbsp;&middot;&nbsp; South Valley, Albuquerque</span>
+      <h1>Your Car.<br>Your Call.<br><em>Every Time.</em></h1>
+      <p class="hero-sub">Albuquerque's South Valley auto shop since 1999. We diagnose it straight, price it fair, and only fix what actually needs fixing.</p>
+      <div class="hero-actions" style="margin-bottom:1rem; align-items:stretch;">
+        <a href="tel:+15054520465" class="btn-primary" style="font-family:'Bebas Neue',sans-serif; font-size:1.2rem; letter-spacing:0.06em; padding:0.8rem 2rem; line-height:1; display:inline-flex; align-items:center;">Call (505) 452-0465</a>
+        <a href="#schedule" class="btn-outline" style="padding:0.8rem 1.5rem; line-height:1; display:inline-flex; align-items:center;">Send a Message</a>
+      </div>
+      <p style="font-size:0.78rem; color:rgba(255,255,255,0.35); letter-spacing:0.06em; text-transform:uppercase;">Or just drop in &mdash; no appointment needed</p>
+    </div>
+    <div class="hero-info" aria-label="Contact and hours">
+      <div class="info-card">
+        <strong>Call or Drop In</strong>
+        <a href="tel:+15054520465" class="big-phone">(505) 452-0465</a>
+      </div>
+      <div class="info-card">
+        <strong>Address</strong>
+        <p>2321 Isleta Blvd SW<br>Albuquerque, NM 87105</p>
+      </div>
+      <div class="info-card">
+        <strong>Hours</strong>
+        <p>Tue &ndash; Sat: 8:00 AM &ndash; 5:00 PM<br>Sun &amp; Mon: Closed</p>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- Battlements: blue-dark notches into trust-bar blue -->
+<div class="battlements" aria-hidden="true">
+  <svg viewBox="0 0 1440 20" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1440" height="20" fill="#1565C8"/>
+    <path d="M0 0 L0 10 L20 10 L20 0 L40 0 L40 10 L60 10 L60 0 L80 0 L80 10 L100 10 L100 0 L120 0 L120 10 L140 10 L140 0 L160 0 L160 10 L180 10 L180 0 L200 0 L200 10 L220 10 L220 0 L240 0 L240 10 L260 10 L260 0 L280 0 L280 10 L300 10 L300 0 L320 0 L320 10 L340 10 L340 0 L360 0 L360 10 L380 10 L380 0 L400 0 L400 10 L420 10 L420 0 L440 0 L440 10 L460 10 L460 0 L480 0 L480 10 L500 10 L500 0 L520 0 L520 10 L540 10 L540 0 L560 0 L560 10 L580 10 L580 0 L600 0 L600 10 L620 10 L620 0 L640 0 L640 10 L660 10 L660 0 L680 0 L680 10 L700 10 L700 0 L720 0 L720 10 L740 10 L740 0 L760 0 L760 10 L780 10 L780 0 L800 0 L800 10 L820 10 L820 0 L840 0 L840 10 L860 10 L860 0 L880 0 L880 10 L900 10 L900 0 L920 0 L920 10 L940 10 L940 0 L960 0 L960 10 L980 10 L980 0 L1000 0 L1000 10 L1020 10 L1020 0 L1040 0 L1040 10 L1060 10 L1060 0 L1080 0 L1080 10 L1100 10 L1100 0 L1120 0 L1120 10 L1140 10 L1140 0 L1160 0 L1160 10 L1180 10 L1180 0 L1200 0 L1200 10 L1220 10 L1220 0 L1240 0 L1240 10 L1260 10 L1260 0 L1280 0 L1280 10 L1300 10 L1300 0 L1320 0 L1320 10 L1340 10 L1340 0 L1360 0 L1360 10 L1380 10 L1380 0 L1400 0 L1400 10 L1420 10 L1420 0 L1440 0 L1440 10 L1440 20 L0 20 Z" fill="#0B1730"/>
+  </svg>
+</div>
+
+<div class="trust-bar" role="complementary">
+  <div class="trust-bar-inner">
+    <span class="trust-item">Honest Diagnosis. No Upsells.</span>
+    <span class="trust-item">Work Backed by Warranty</span>
+    <span class="trust-item">Serving Albuquerque Since 1999</span>
+  </div>
+</div>
+
+<!-- Battlements: blue into white -->
+<div class="battlements" aria-hidden="true">
+  <svg viewBox="0 0 1440 20" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1440" height="20" fill="#F5F4F0"/>
+    <path d="M0 20 L0 10 L20 10 L20 20 L40 20 L40 10 L60 10 L60 20 L80 20 L80 10 L100 10 L100 20 L120 20 L120 10 L140 10 L140 20 L160 20 L160 10 L180 10 L180 20 L200 20 L200 10 L220 10 L220 20 L240 20 L240 10 L260 10 L260 20 L280 20 L280 10 L300 10 L300 20 L320 20 L320 10 L340 10 L340 20 L360 20 L360 10 L380 10 L380 20 L400 20 L400 10 L420 10 L420 20 L440 20 L440 10 L460 10 L460 20 L480 20 L480 10 L500 10 L500 20 L520 20 L520 10 L540 10 L540 20 L560 20 L560 10 L580 10 L580 20 L600 20 L600 10 L620 10 L620 20 L640 20 L640 10 L660 10 L660 20 L680 20 L680 10 L700 10 L700 20 L720 20 L720 10 L740 10 L740 20 L760 20 L760 10 L780 10 L780 20 L800 20 L800 10 L820 10 L820 20 L840 20 L840 10 L860 10 L860 20 L880 20 L880 10 L900 10 L900 20 L920 20 L920 10 L940 10 L940 20 L960 20 L960 10 L980 10 L980 20 L1000 20 L1000 10 L1020 10 L1020 20 L1040 20 L1040 10 L1060 10 L1060 20 L1080 20 L1080 10 L1100 10 L1100 20 L1120 20 L1120 10 L1140 10 L1140 20 L1160 20 L1160 10 L1180 10 L1180 20 L1200 20 L1200 10 L1220 10 L1220 20 L1240 20 L1240 10 L1260 10 L1260 20 L1280 20 L1280 10 L1300 10 L1300 20 L1320 20 L1320 10 L1340 10 L1340 20 L1360 20 L1360 10 L1380 10 L1380 20 L1400 20 L1400 10 L1420 10 L1420 20 L1440 20 L0 20 Z" fill="#1565C8"/>
+  </svg>
+</div>
+
+<!-- SERVICES -->
+<section id="services" aria-labelledby="services-heading">
+  <div class="section-inner">
+    <p class="section-eyebrow fade-up">What We Do</p>
+    <h2 id="services-heading" class="fade-up delay-1">Our Services</h2>
+    <p class="section-lead fade-up delay-2">Full-service shop handling all domestic and most import vehicles. We diagnose accurately, explain everything in plain terms, and fix it right the first time.</p>
+    <div class="services-grid" role="list">
+
+      <a class="service-card fade-up" role="listitem" href="#schedule" data-service="Routine Maintenance">
+        <span class="service-accent" aria-hidden="true"></span>
+        <h3>Routine Maintenance</h3>
+        <p>Oil changes, spark plugs, filters, belts, and fluid services. Conventional and synthetic oil using the spec for your vehicle. We follow your manufacturer schedule so nothing gets missed.</p>
+        <span class="service-card-cta">Request this service &rarr;</span>
+      </a>
+
+      <a class="service-card fade-up delay-2" role="listitem" href="#schedule" data-service="Alignment & Brakes">
+        <span class="service-accent" aria-hidden="true"></span>
+        <h3>Alignment &amp; Brakes</h3>
+        <p>Front-end and four-wheel alignment starting at $69.99. Pads, rotors, calipers, and brake lines. We inspect the full system and only recommend what actually needs replacing.</p>
+        <span class="service-card-cta">Request this service &rarr;</span>
+      </a>
+
+      <a class="service-card fade-up delay-3" role="listitem" href="#schedule" data-service="Steering & Suspension">
+        <span class="service-accent" aria-hidden="true"></span>
+        <h3>Steering &amp; Suspension</h3>
+        <p>Shocks, struts, tie rods, ball joints, and control arms. If your car pulls, floats, or clunks over bumps, we find the issue and give you a straight answer on what it takes to fix it.</p>
+        <span class="service-card-cta">Request this service &rarr;</span>
+      </a>
+
+      <a class="service-card fade-up" role="listitem" href="#schedule" data-service="Electrical">
+        <span class="service-accent" aria-hidden="true"></span>
+        <h3>Electrical</h3>
+        <p>Battery, alternator, starter, and wiring. We use proper diagnostic tools to trace electrical faults accurately &mdash; no guesswork, no unnecessary parts.</p>
+        <span class="service-card-cta">Request this service &rarr;</span>
+      </a>
+
+      <a class="service-card" role="listitem" href="#schedule" data-service="Radiator & Cooling">
+        <span class="service-accent" aria-hidden="true"></span>
+        <h3>Radiators &amp; Cooling</h3>
+        <p>Radiator repair and replacement, coolant flush, hoses, thermostat, and water pump. AC diagnosis, recharge, and compressor repair. Albuquerque summers are no joke &mdash; we keep you cool.</p>
+        <span class="service-card-cta">Request this service &rarr;</span>
+      </a>
+
+      <a class="service-card" role="listitem" href="#schedule" data-service="Diagnostics">
+        <span class="service-accent" aria-hidden="true"></span>
+        <h3>Diagnostics &amp; Tune-Ups</h3>
+        <p>Check engine light, rough idle, misfires, and performance issues. We run a full scan, explain what the codes actually mean, and only do what the car actually needs.</p>
+        <span class="service-card-cta">Request this service &rarr;</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Battlements: white into blue-dark -->
+<div class="battlements" aria-hidden="true">
+  <svg viewBox="0 0 1440 20" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1440" height="20" fill="#0B1730"/>
+    <path d="M0 0 L0 10 L20 10 L20 0 L40 0 L40 10 L60 10 L60 0 L80 0 L80 10 L100 10 L100 0 L120 0 L120 10 L140 10 L140 0 L160 0 L160 10 L180 10 L180 0 L200 0 L200 10 L220 10 L220 0 L240 0 L240 10 L260 10 L260 0 L280 0 L280 10 L300 10 L300 0 L320 0 L320 10 L340 10 L340 0 L360 0 L360 10 L380 10 L380 0 L400 0 L400 10 L420 10 L420 0 L440 0 L440 10 L460 10 L460 0 L480 0 L480 10 L500 10 L500 0 L520 0 L520 10 L540 10 L540 0 L560 0 L560 10 L580 10 L580 0 L600 0 L600 10 L620 10 L620 0 L640 0 L640 10 L660 10 L660 0 L680 0 L680 10 L700 10 L700 0 L720 0 L720 10 L740 10 L740 0 L760 0 L760 10 L780 10 L780 0 L800 0 L800 10 L820 10 L820 0 L840 0 L840 10 L860 10 L860 0 L880 0 L880 10 L900 10 L900 0 L920 0 L920 10 L940 10 L940 0 L960 0 L960 10 L980 10 L980 0 L1000 0 L1000 10 L1020 10 L1020 0 L1040 0 L1040 10 L1060 10 L1060 0 L1080 0 L1080 10 L1100 10 L1100 0 L1120 0 L1120 10 L1140 10 L1140 0 L1160 0 L1160 10 L1180 10 L1180 0 L1200 0 L1200 10 L1220 10 L1220 0 L1240 0 L1240 10 L1260 10 L1260 0 L1280 0 L1280 10 L1300 10 L1300 0 L1320 0 L1320 10 L1340 10 L1340 0 L1360 0 L1360 10 L1380 10 L1380 0 L1400 0 L1400 10 L1420 10 L1420 0 L1440 0 L1440 10 L1440 20 L0 20 Z" fill="#F5F4F0"/>
+  </svg>
+</div>
+
+<!-- ABOUT -->
+<section id="about" aria-labelledby="about-heading" style="padding:0;">
+  <div class="about-split">
+    <div class="about-left">
+      <div class="about-left-inner">
+        <p class="section-eyebrow">Our Story</p>
+        <h2>South Valley's Shop Since 1999</h2>
+        <p class="about-story">Anthony Romero opened Blue Castle Auto to give the South Valley a shop they could actually trust. Over 25 years later, more than 90% of our business comes from referrals. Full-service, all domestic and most foreign vehicles. Every job is backed by warranty &mdash; we stand behind our work, every time.</p>
+        <div class="about-stats">
+          <div class="stat-box"><span class="num">25+</span><span class="label">Years in the South Valley</span></div>
+          <div class="stat-box"><span class="num">4.4&#9733;</span><span class="label">265+ Customer Reviews</span></div>
+          <div class="stat-box"><span class="num">90%</span><span class="label">Referral-Based Business</span></div>
+          <div class="stat-box"><span class="num">Trusted</span><span class="label">Local &amp; Independent</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="about-right">
+      <img src="./img/our-story.jpeg" alt="The Blue Castle Auto team in front of the shop on Isleta Blvd">
+    </div>
+  </div>
+</section>
+
+<!-- DROP-IN CTA BAND -->
+<div class="dropin-band" role="complementary">
+  <div class="dropin-inner">
+    <div class="dropin-text">
+      <h3>Call or Come In &mdash; We're Ready</h3>
+      <p>Open Tue &ndash; Sat, 8 AM to 5 PM &nbsp;&middot;&nbsp; All work backed by warranty</p>
+    </div>
+    <div class="dropin-actions">
+      <a href="tel:+15054520465" class="dropin-phone">(505) 452-0465</a>
+      <a href="#location" class="btn-white">Get Directions</a>
+    </div>
+  </div>
+</div>
+
+<!-- Battlements: light into white -->
+<div class="battlements" aria-hidden="true">
+  <svg viewBox="0 0 1440 20" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1440" height="20" fill="#F5F4F0"/>
+    <path d="M0 20 L0 10 L20 10 L20 20 L40 20 L40 10 L60 10 L60 20 L80 20 L80 10 L100 10 L100 20 L120 20 L120 10 L140 10 L140 20 L160 20 L160 10 L180 10 L180 20 L200 20 L200 10 L220 10 L220 20 L240 20 L240 10 L260 10 L260 20 L280 20 L280 10 L300 10 L300 20 L320 20 L320 10 L340 10 L340 20 L360 20 L360 10 L380 10 L380 20 L400 20 L400 10 L420 10 L420 20 L440 20 L440 10 L460 10 L460 20 L480 20 L480 10 L500 10 L500 20 L520 20 L520 10 L540 10 L540 20 L560 20 L560 10 L580 10 L580 20 L600 20 L600 10 L620 10 L620 20 L640 20 L640 10 L660 10 L660 20 L680 20 L680 10 L700 10 L700 20 L720 20 L720 10 L740 10 L740 20 L760 20 L760 10 L780 10 L780 20 L800 20 L800 10 L820 10 L820 20 L840 20 L840 10 L860 10 L860 20 L880 20 L880 10 L900 10 L900 20 L920 20 L920 10 L940 10 L940 20 L960 20 L960 10 L980 10 L980 20 L1000 20 L1000 10 L1020 10 L1020 20 L1040 20 L1040 10 L1060 10 L1060 20 L1080 20 L1080 10 L1100 10 L1100 20 L1120 20 L1120 10 L1140 10 L1140 20 L1160 20 L1160 10 L1180 10 L1180 20 L1200 20 L1200 10 L1220 10 L1220 20 L1240 20 L1240 10 L1260 10 L1260 20 L1280 20 L1280 10 L1300 10 L1300 20 L1320 20 L1320 10 L1340 10 L1340 20 L1360 20 L1360 10 L1380 10 L1380 20 L1400 20 L1400 10 L1420 10 L1420 20 L1440 20 L0 20 Z" fill="#E2E1DC"/>
+  </svg>
+</div>
+
+<!-- REVIEWS -->
+<section id="reviews" aria-labelledby="reviews-heading">
+  <div class="section-inner">
+    <p class="section-eyebrow fade-up">What Customers Say</p>
+    <h2 id="reviews-heading" class="fade-up delay-1">4.4 Stars &amp; 265+ Reviews</h2>
+    <div class="reviews-carousel fade-up delay-2">
+      <div class="reviews-grid" id="reviewsGrid" role="list"></div>
+      <div class="reviews-controls" aria-label="Review navigation">
+        <button class="reviews-btn" id="reviewsPrev" aria-label="Previous reviews">&#8592;</button>
+        <div class="reviews-dots" id="reviewsDots"></div>
+        <button class="reviews-btn" id="reviewsNext" aria-label="Next reviews">&#8594;</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Battlements: white into blue-dark -->
+<div class="battlements" aria-hidden="true">
+  <svg viewBox="0 0 1440 20" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1440" height="20" fill="#0B1730"/>
+    <path d="M0 0 L0 10 L20 10 L20 0 L40 0 L40 10 L60 10 L60 0 L80 0 L80 10 L100 10 L100 0 L120 0 L120 10 L140 10 L140 0 L160 0 L160 10 L180 10 L180 0 L200 0 L200 10 L220 10 L220 0 L240 0 L240 10 L260 10 L260 0 L280 0 L280 10 L300 10 L300 0 L320 0 L320 10 L340 10 L340 0 L360 0 L360 10 L380 10 L380 0 L400 0 L400 10 L420 10 L420 0 L440 0 L440 10 L460 10 L460 0 L480 0 L480 10 L500 10 L500 0 L520 0 L520 10 L540 10 L540 0 L560 0 L560 10 L580 10 L580 0 L600 0 L600 10 L620 10 L620 0 L640 0 L640 10 L660 10 L660 0 L680 0 L680 10 L700 10 L700 0 L720 0 L720 10 L740 10 L740 0 L760 0 L760 10 L780 10 L780 0 L800 0 L800 10 L820 10 L820 0 L840 0 L840 10 L860 10 L860 0 L880 0 L880 10 L900 10 L900 0 L920 0 L920 10 L940 10 L940 0 L960 0 L960 10 L980 10 L980 0 L1000 0 L1000 10 L1020 10 L1020 0 L1040 0 L1040 10 L1060 10 L1060 0 L1080 0 L1080 10 L1100 10 L1100 0 L1120 0 L1120 10 L1140 10 L1140 0 L1160 0 L1160 10 L1180 10 L1180 0 L1200 0 L1200 10 L1220 10 L1220 0 L1240 0 L1240 10 L1260 10 L1260 0 L1280 0 L1280 10 L1300 10 L1300 0 L1320 0 L1320 10 L1340 10 L1340 0 L1360 0 L1360 10 L1380 10 L1380 0 L1400 0 L1400 10 L1420 10 L1420 0 L1440 0 L1440 10 L1440 20 L0 20 Z" fill="#F5F4F0"/>
+  </svg>
+</div>
+
+<!-- Battlements: red into light -->
+<div class="battlements" aria-hidden="true">
+  <svg viewBox="0 0 1440 20" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1440" height="20" fill="#E2E1DC"/>
+    <path d="M0 0 L0 10 L20 10 L20 0 L40 0 L40 10 L60 10 L60 0 L80 0 L80 10 L100 10 L100 0 L120 0 L120 10 L140 10 L140 0 L160 0 L160 10 L180 10 L180 0 L200 0 L200 10 L220 10 L220 0 L240 0 L240 10 L260 10 L260 0 L280 0 L280 10 L300 10 L300 0 L320 0 L320 10 L340 10 L340 0 L360 0 L360 10 L380 10 L380 0 L400 0 L400 10 L420 10 L420 0 L440 0 L440 10 L460 10 L460 0 L480 0 L480 10 L500 10 L500 0 L520 0 L520 10 L540 10 L540 0 L560 0 L560 10 L580 10 L580 0 L600 0 L600 10 L620 10 L620 0 L640 0 L640 10 L660 10 L660 0 L680 0 L680 10 L700 10 L700 0 L720 0 L720 10 L740 10 L740 0 L760 0 L760 10 L780 10 L780 0 L800 0 L800 10 L820 10 L820 0 L840 0 L840 10 L860 10 L860 0 L880 0 L880 10 L900 10 L900 0 L920 0 L920 10 L940 10 L940 0 L960 0 L960 10 L980 10 L980 0 L1000 0 L1000 10 L1020 10 L1020 0 L1040 0 L1040 10 L1060 10 L1060 0 L1080 0 L1080 10 L1100 10 L1100 0 L1120 0 L1120 10 L1140 10 L1140 0 L1160 0 L1160 10 L1180 10 L1180 0 L1200 0 L1200 10 L1220 10 L1220 0 L1240 0 L1240 10 L1260 10 L1260 0 L1280 0 L1280 10 L1300 10 L1300 0 L1320 0 L1320 10 L1340 10 L1340 0 L1360 0 L1360 10 L1380 10 L1380 0 L1400 0 L1400 10 L1420 10 L1420 0 L1440 0 L1440 10 L1440 20 L0 20 Z" fill="#C8181E"/>
+  </svg>
+</div>
+
+<!-- CONTACT -->
+<section id="schedule" aria-labelledby="schedule-heading">
+  <div class="section-inner">
+    <p class="section-eyebrow fade-up">Get In Touch</p>
+    <h2 id="schedule-heading" class="fade-up delay-1">Call, Drop In, or Send a Message</h2>
+    <p class="section-lead">The fastest way to reach us is always a phone call or a drop-in. But if you want to send a message ahead of time, we'll get back to you same day during business hours.</p>
+    <div class="schedule-grid">
+
+      <div class="schedule-widget-box fade-up">
+        <h3>Send a Message</h3>
+        <p>Have a question or want to give us a heads up? We'll reach back out same day. All work is backed by warranty.</p>
+        <!--
+          Replace action="#" with your Formspree endpoint:
+          action="https://formspree.io/f/[YOUR_ID]"
+        -->
+        <form class="fallback-form" id="contactForm" action="#" method="post" aria-label="Contact form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Maria" required autocomplete="given-name">
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" placeholder="Garcia" required autocomplete="family-name">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="(505) 000-0000" required autocomplete="tel">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="maria@email.com" autocomplete="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="vehicle">Vehicle (Year / Make / Model)</label>
+            <input type="text" id="vehicle" name="vehicle" placeholder="2016 Toyota Camry">
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option>Routine Maintenance</option>
+              <option>Alignment &amp; Brakes</option>
+              <option>Steering &amp; Suspension</option>
+              <option>Electrical</option>
+              <option>Radiators &amp; Cooling</option>
+              <option>Diagnostics &amp; Tune-Ups</option>
+              <option>Not Sure / Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us More</label>
+            <textarea id="message" name="message" placeholder="Describe what you're experiencing..."></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Message</button>
+        </form>
+      </div>
+
+      <div class="schedule-alt fade-up delay-2">
+        <div>
+          <h3>Fastest Way In</h3>
+          <p>Call us direct or just pull in. No scheduling, no waiting room forms, no runaround.</p>
+        </div>
+        <div class="contact-block red-border">
+          <p class="lbl">Call or Drop In</p>
+          <a href="tel:+15054520465" class="val">(505) 452-0465</a>
+          <p class="sub">Answered during business hours</p>
+        </div>
+        <div class="contact-block">
+          <p class="lbl">Address</p>
+          <a href="https://maps.google.com/?q=2321+Isleta+Blvd+SW+Albuquerque+NM+87105" target="_blank" rel="noopener" class="val" style="font-size:1rem; letter-spacing:0.02em; text-transform:none; font-family:'Inter',sans-serif; font-weight:600;">2321 Isleta Blvd SW<br>Albuquerque, NM 87105</a>
+          <p class="sub">The blue castle &mdash; you can't miss it</p>
+        </div>
+        <div class="contact-block">
+          <p class="lbl">Hours</p>
+          <div class="hours-grid" style="margin-top:0.5rem;">
+            <span class="hours-day">Tue</span><span class="hours-time open">8:00 AM &ndash; 5:00 PM</span>
+            <span class="hours-day">Wed</span><span class="hours-time open">8:00 AM &ndash; 5:00 PM</span>
+            <span class="hours-day">Thu</span><span class="hours-time open">8:00 AM &ndash; 5:00 PM</span>
+            <span class="hours-day">Fri</span><span class="hours-time open">8:00 AM &ndash; 5:00 PM</span>
+            <span class="hours-day">Sat</span><span class="hours-time open">8:00 AM &ndash; 5:00 PM</span>
+            <span class="hours-day">Sun</span><span class="hours-time closed">Closed</span>
+            <span class="hours-day">Mon</span><span class="hours-time closed">Closed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location" aria-labelledby="location-heading" style="padding:4rem 0 0; background: var(--blue-dark);">
+  <div style="max-width:1100px; margin:0 auto; padding:0 1.5rem 3rem;">
+    <p class="section-eyebrow">Find Us</p>
+    <h2 id="location-heading" style="color:var(--white); margin-bottom:2.5rem;">The Blue Castle on Isleta</h2>
+
+    <!-- Three-column info bar -->
+    <div class="location-info-grid" style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border:1px solid rgba(255,255,255,0.08); margin-bottom:0;">
+
+      <div style="padding:2rem 2rem 2rem 2rem; border-right:1px solid rgba(255,255,255,0.08);">
+        <p style="font-size:0.68rem; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--red); margin-bottom:0.6rem;">Address</p>
+        <p style="color:var(--white); font-size:1.05rem; line-height:1.5; margin-bottom:1.25rem;">2321 Isleta Blvd SW<br>Albuquerque, NM 87105</p>
+        <p style="font-size:0.68rem; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--red); margin-bottom:0.6rem;">Phone</p>
+        <a href="tel:+15054520465" style="font-family:'Bebas Neue',sans-serif; font-size:1.6rem; letter-spacing:0.04em; color:var(--white); text-decoration:none; display:block; margin-bottom:1.5rem;">(505) 452-0465</a>
+        <a href="https://maps.google.com/?q=2321+Isleta+Blvd+SW+Albuquerque+NM+87105" target="_blank" rel="noopener" class="btn-primary">Get Directions</a>
+      </div>
+
+      <div style="padding:2rem 2rem; border-right:1px solid rgba(255,255,255,0.08);">
+        <p style="font-size:0.68rem; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--red); margin-bottom:0.75rem;">Hours</p>
+        <div style="display:grid; grid-template-columns:auto 1fr; gap:0.35rem 1.5rem;">
+          <span style="font-size:0.82rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#4A5870;">Tue</span><span style="font-size:0.82rem; color:#22A050; font-weight:600;">8 AM &ndash; 5 PM</span>
+          <span style="font-size:0.82rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#4A5870;">Wed</span><span style="font-size:0.82rem; color:#22A050; font-weight:600;">8 AM &ndash; 5 PM</span>
+          <span style="font-size:0.82rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#4A5870;">Thu</span><span style="font-size:0.82rem; color:#22A050; font-weight:600;">8 AM &ndash; 5 PM</span>
+          <span style="font-size:0.82rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#4A5870;">Fri</span><span style="font-size:0.82rem; color:#22A050; font-weight:600;">8 AM &ndash; 5 PM</span>
+          <span style="font-size:0.82rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#4A5870;">Sat</span><span style="font-size:0.82rem; color:#22A050; font-weight:600;">8 AM &ndash; 5 PM</span>
+          <span style="font-size:0.82rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#4A5870;">Sun</span><span style="font-size:0.82rem; color:#3A4A5A;">Closed</span>
+          <span style="font-size:0.82rem; font-weight:700; text-transform:uppercase; letter-spacing:0.06em; color:#4A5870;">Mon</span><span style="font-size:0.82rem; color:#3A4A5A;">Closed</span>
+        </div>
+      </div>
+
+      <div style="padding:2rem 2rem 2rem 2rem;">
+        <p style="font-size:0.68rem; font-weight:600; letter-spacing:0.18em; text-transform:uppercase; color:var(--red); margin-bottom:0.75rem;">Getting Here</p>
+        <p style="font-size:0.95rem; color:#8A9AB0; line-height:1.7; margin-bottom:1.25rem;">We're on Isleta Blvd SW in Albuquerque's South Valley — the bright blue building with the castle battlements. You won't miss it.</p>
+        <p style="font-size:0.95rem; color:#8A9AB0; line-height:1.7;">Pull in any time during business hours. No appointment needed — we take care of you in order.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Full-width map flush to bottom -->
+  <iframe
+    title="Blue Castle Auto location"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.1!2d-106.6742!3d35.0533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s2321+Isleta+Blvd+SW%2C+Albuquerque%2C+NM+87105!5e0!3m2!1sen!2sus!4v1700000000001!5m2!1sen!2sus"
+    style="width:100%; height:380px; border:none; display:block;"
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="./img/logo.png" alt="Blue Castle Auto" class="footer-brand-logo">
+      <p>Family-owned full-service auto repair in Albuquerque&rsquo;s South Valley since 1999. Honest work, fair prices, and a team that treats you like a neighbor.</p>
+      <div class="footer-brand-contact">
+        <span>Call us</span>
+        <a href="tel:+15054520465">(505) 452-0465</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Routine Maintenance</a></li>
+        <li><a href="#services">Alignment &amp; Brakes</a></li>
+        <li><a href="#services">Steering &amp; Suspension</a></li>
+        <li><a href="#services">Electrical</a></li>
+        <li><a href="#services">Radiators &amp; Cooling</a></li>
+        <li><a href="#services">Diagnostics &amp; Tune-Ups</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Hours &amp; Location</h4>
+      <div class="footer-hours">
+        <span class="fh-day">Tue &ndash; Sat</span><span>8 AM &ndash; 5 PM</span>
+        <span class="fh-day">Sun &ndash; Mon</span><span>Closed</span>
+      </div>
+      <p style="margin-top:1.1rem;">2321 Isleta Blvd SW<br>Albuquerque, NM 87105<br><a href="https://maps.google.com/?q=2321+Isleta+Blvd+SW+Albuquerque+NM+87105" target="_blank" rel="noopener" style="color:#5A6880; text-decoration:none; font-size:0.82rem; display:inline-block; margin-top:0.4rem;">Get Directions &rarr;</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Blue Castle Auto &nbsp;&middot;&nbsp; All rights reserved &nbsp;&middot;&nbsp; <a href="#">Privacy Policy</a></p>
+    <p>Auto repair serving Albuquerque, NM &nbsp;&middot;&nbsp; <a href="https://maps.google.com/?q=2321+Isleta+Blvd+SW+Albuquerque+NM+87105" target="_blank" rel="noopener">2321 Isleta Blvd SW, Albuquerque NM 87105</a></p>
+  </div>
+</footer>
+
+<script>
+  const ham = document.getElementById('hamburger');
+  const nav = document.getElementById('navLinks');
+  ham.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    ham.setAttribute('aria-expanded', open);
+  });
+  document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.remove('open'); ham.setAttribute('aria-expanded', false);
+  }));
+
+  document.querySelectorAll('.service-card[data-service]').forEach(card => {
+    card.addEventListener('click', function(e) {
+      e.preventDefault();
+      const val = this.dataset.service;
+      const sel = document.getElementById('service');
+      Array.from(sel.options).forEach(o => { if (o.text.trim() === val || o.value === val) sel.value = o.value; });
+      document.getElementById('schedule').scrollIntoView({ behavior: 'smooth' });
+      setTimeout(() => { sel.style.borderColor = 'var(--blue)'; sel.focus(); setTimeout(() => { sel.style.borderColor = ''; }, 1800); }, 600);
+    });
+  });
+
+  const reviews = [
+    { text: "I am a female who dislikes dealing with mechanic shops. But after stopping at Blue Castle I'm glad I did. Anthony is empathetic, honest, and not going to take advantage of you. He saved me money and my car runs great.", author: "Denise R.", source: "via Google" },
+    { text: "I took my truck in thinking I needed ball joints. Anthony's thorough inspection saved me around $1,000. His honesty is unmatched and I won't go anywhere else.", author: "Verified Customer", source: "via Google" },
+    { text: "Five star service has ALWAYS been my experience. Going back nearly 25 years, Anthony has been the only mechanic I have ever fully trusted with my vehicles.", author: "Longtime Customer", source: "via Yelp" },
+    { text: "We were driving through Albuquerque and our vehicle broke down outside the city. Anthony's team fit us in short notice and saved our trip. Amazing service and extremely knowledgeable.", author: "Road Trip Customer", source: "via Google" },
+    { text: "Anthony quoted me a fair price AND gave me the option to bring my own coolant to save the markup. That kind of honesty is rare. I've been back many times.", author: "Verified Customer", source: "via Yelp" },
+    { text: "They honored their warranty without hesitation and covered a repair out of pocket when a part supplier gave us trouble. That's integrity you can't buy.", author: "Verified Customer", source: "via Google" }
+  ];
+
+  const PER = 3;
+  let cur = 0;
+  const tot = Math.ceil(reviews.length / PER);
+  const grid = document.getElementById('reviewsGrid');
+  const dotsEl = document.getElementById('reviewsDots');
+
+  for (let i = 0; i < tot; i++) {
+    const d = document.createElement('button');
+    d.className = 'reviews-dot' + (i === 0 ? ' active' : '');
+    d.setAttribute('aria-label', 'Page ' + (i+1));
+    d.addEventListener('click', () => go(i));
+    dotsEl.appendChild(d);
+  }
+
+  function render(p) {
+    grid.innerHTML = reviews.slice(p*PER, p*PER+PER).map(r =>
+      '<article class="review-card" role="listitem" itemscope itemtype="https://schema.org/Review">' +
+      '<div class="review-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>' +
+      '<p class="review-text" itemprop="reviewBody">' + r.text + '</p>' +
+      '<p class="review-author" itemprop="author">' + r.author + '</p>' +
+      '<p class="review-source">' + r.source + '</p></article>'
+    ).join('');
+    dotsEl.querySelectorAll('.reviews-dot').forEach((d,i) => d.classList.toggle('active', i===p));
+  }
+
+  function go(p) {
+    if (p === cur) return;
+    grid.classList.add('fading');
+    setTimeout(() => { cur = p; render(cur); grid.classList.remove('fading'); }, 350);
+  }
+
+  document.getElementById('reviewsPrev').addEventListener('click', () => go((cur-1+tot)%tot));
+  document.getElementById('reviewsNext').addEventListener('click', () => go((cur+1)%tot));
+  let timer = setInterval(() => go((cur+1)%tot), 7000);
+  grid.addEventListener('mouseenter', () => clearInterval(timer));
+  grid.addEventListener('mouseleave', () => { timer = setInterval(() => go((cur+1)%tot), 7000); });
+  render(0);
+
+
+  // ── Scroll animations ──────────────────────────────────────────────
+  // Only run if user hasn't requested reduced motion
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    // Observe all fade-up elements
+    document.querySelectorAll('.fade-up, .stat-box').forEach(el => observer.observe(el));
+  } else {
+    // Reduced motion: just make everything visible immediately
+    document.querySelectorAll('.fade-up, .stat-box').forEach(el => el.classList.add('visible'));
+  }
+</script>
+</body>
+</html>
